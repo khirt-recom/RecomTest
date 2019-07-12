@@ -37,7 +37,5 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
     testSelector: 'testAssemblies'
-    testAssemblyVer2: '**\*test*.dll
-      !**\*TestAdapter.dll
-      !**\obj\**'
+    testAssemblyVer2: '**/*Test*.dll'
     searchFolder: '$(System.DefaultWorkingDirectory)'
