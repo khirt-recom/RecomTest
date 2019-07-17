@@ -1,3 +1,4 @@
+using System;
 using System.Windows.Input;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.CommandWpf;
@@ -18,13 +19,13 @@ namespace HelloWorld.ViewModel
     /// </summary>
     public class MainViewModel : ViewModelBase
     {
-        private string _greeting;
+        private string _friendlyGreeting;
         private ICommand greetCommand;
 
         public string Greeting
         {
-            get => _greeting;
-            set => this.Set(ref _greeting , value);
+            get => DateTime.Now.Hour > 23 ? "It is late at night, dude!" : _friendlyGreeting;
+            set => this.Set(ref _friendlyGreeting , value);
         }
 
         public ICommand GreetCommand
