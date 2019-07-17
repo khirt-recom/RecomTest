@@ -22,7 +22,7 @@
                    HorizontalAlignment="Center"/>
         <Button Grid.Row="1" Grid.Column="0" 
                 Command="{Binding GreetCommand}"
-                Content="Hello" 
+                Content="Hallo liebe Entwickler" 
                 HorizontalAlignment="Center"
                 Margin="10" Width="100"/>
     </Grid>
