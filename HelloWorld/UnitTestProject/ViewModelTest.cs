@@ -13,7 +13,6 @@ namespace UnitTestProject
             MainViewModel vm = new MainViewModel();
 
             Assert.IsNull(vm.Greeting);
-
             Assert.NotNull(vm.GreetCommand);
 
             vm.GreetCommand.Execute(null);
