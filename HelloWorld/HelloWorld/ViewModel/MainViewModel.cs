@@ -29,7 +29,7 @@ namespace HelloWorld.ViewModel
         }
 
         public ICommand GreetCommand
-            => greetCommand ?? (greetCommand = new RelayCommand(() => Greeting = "Hello Developers"));
+            => greetCommand ?? (greetCommand = new RelayCommand(() => Greeting = "Hello dear Developers"));
 
         
 
