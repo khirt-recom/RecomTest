@@ -5,6 +5,8 @@ using GalaSoft.MvvmLight.CommandWpf;
 
 namespace HelloWorld.ViewModel
 {
+    // neuer kommentar 2
+    
     /// <summary>
     /// This class contains properties that the main View can data bind to.
     /// <para>
