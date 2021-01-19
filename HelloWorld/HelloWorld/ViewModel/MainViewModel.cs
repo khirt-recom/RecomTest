@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics;
 using System.Windows.Input;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.CommandWpf;
@@ -46,6 +47,13 @@ namespace HelloWorld.ViewModel
             ////{
             ////    // Code runs "for real"
             ////}
+        }
+
+        public void DoSuperCalcculation()
+        {
+            var x = new Calculator.Engine();
+
+            Debug.Write(x.Multiply(1,0));
         }
     }
 }
