@@ -10,7 +10,7 @@ namespace UnitTestProject
         [Test]
         public void ViewModel_TestGreeting()
         {
-
+            // there should be no BUG here
             MainViewModel vm = new MainViewModel();
             Assert.IsNull(vm.Greeting);
             Assert.NotNull(vm.GreetCommand);
