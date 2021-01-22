@@ -1,25 +1,40 @@
 pipeline {
-    agent any
+    agent {
+       node {
+         label 'Slave1'
+         customWorkspace "c:\\Builds\\ci\\test"
+       }
+    }
 
     stages {
+        stage('Nuget') {
+            steps {
+                script {
+                    echo 'Restore nuget packages...'
+                    bat "nuget.exe restore HelloWorld\\HelloWorld.sln -Source http://hazelhen:8624/nuget/ProGetDefault/ -SolutionDirectory .\\HelloWorld"
+                }
+            }
+        }    
         stage('Build') {
             steps {
-			    script {
-                     echo 'Building..'
-
-				     bat 'nuget restore HelloWorld\\HelloWorld.sln'
-                     bat "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin\\MSBuild.exe\" HelloWorld\\HelloWorld.sln /p:Configuration=Release /p:Platform=\"Any CPU\""
+                script {
+                    echo 'Building..'
+                    bat "\"${tool 'MSBuild Visual Studio 19'}\\MSBuild.exe\" HelloWorld\\HelloWorld.sln /m:4 /nodeReuse:false /p:Configuration=Debug /p:Platform=\"Any CPU\" /t:Restore,Build"
                 }
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
+                script {
+                    echo 'Testing..'
+                    catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') 
+                    {
+                        bat "nunit3-console.exe /agents=1 /framework:v4.0.30319 /result=test_results.xml \".\\HelloWorld\\UnitTestProject\\bin\\Debug\\UnitTestProject.dll\""
+                    }
+                    
+                    echo "Publish Nunit3 test results"
+                    nunit testResultsPattern: "test_results.xml", failIfNoResults: true
+                }
             }
         }
     }
