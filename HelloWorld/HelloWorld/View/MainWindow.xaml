@@ -24,6 +24,6 @@
                 Command="{Binding GreetCommand}"
                 Content="Hallo liebe Entwickler" 
                 HorizontalAlignment="Center"
-                Margin="10" Width="100"/>
+                Margin="10" Width="150"/>
     </Grid>
 </Window>
