@@ -2,4 +2,4 @@ TODO: Wir brauchen Kekse
 
 ### Bilder
 
-![kekse](kekse.jpg?raw=true "Kekse")
+![kekse](Kekse.jpg?raw=true "Kekse")
