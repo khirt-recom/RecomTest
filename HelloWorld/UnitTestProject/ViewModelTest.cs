@@ -19,7 +19,7 @@ namespace UnitTestProject
 
             Assert.NotNull(vm.Greeting);
             Assert.IsNotEmpty(vm.Greeting);
-            Assert.AreEqual("Hello Developers", vm.Greeting);
+            Assert.AreEqual("Hello Miena", vm.Greeting);
             Assert.NotNull(vm.GreetCommand);
         }
     }
