@@ -1,0 +1,75 @@
+# Was ist GRIPS
+
+Grips ist eine digitale Patientanakte. Wir sprechen hier von *Interdisziplinär*, *intersektoral* und *interoperabel*.
+
+**Interdisziplinär** weil verschiedene Berufsgruppen (Plegekräfte, Mediziner:innen, Mitarbeitende des Sozialdienst, der therapeutischen Disziplin, des Erlösmanagements etc. damit arbeiten. 
+
+**Intersektoral** weil GRIPS in verschiedenen Settings zum Einsatz kommt, z.B. in Kliniken, in Rehaeinrichtungen oder dem ambulanten Pflegebereich.
+
+**Interoperabel** weil GRIPS ein gemeinsames Verständnis der Daten sicherstellt, z.B. die Referenzterminologien (ENP, NANDA, BAss) und eine Struktur der übermittelten Informationen vorliegt und gewährleistet ist.
+
+Durch den flexiblen modularen Aufbau von GRIPS ermöglichen wir einen zielgenauen und bedarfsgerechten Aufbau der digitalen Akte ganz nach den Anforderungen der Kunden.
+
+Durch integriertes, strukturiertes und kontrolliertes Vokabular wird die Dokumentation einfacher, 
+schneller, sicherer und vor allem auswertbar. Intelligent verknüpfte Pfade und Verbindungen führen  
+durch den gesamten Pflege- und Behandlungsprozess und ermöglichen evidenzbasiertes Handeln.
+Abrechenbare Leistungen leiten sich aus der Regeldokumentation ab.
+
+Eine Integration von GRIPS in bereits vorhandene KIS-Landschaften und IT-Strukturen ist kein 
+Problem. Schnittstellen zu allen gängigen Krankenhausinformationssystemen wie von Dedalus, CGM, 
+Nexus usw. können realisiert werden. 
+
+Insgesamt bietet GRIPS über 100 verschiedene Einzel- und Zusatzmodule, die entweder einzeln oder in Paketen zum Basispaket ergänzt werden können.
+
+Das Basispaket von GRIPS beinhaltet alle Kernkomponenten, um erfolgreich arbeiten zu können, wie zum Beispiel die User- und Kundenverwaltung sowie das Rechte- und Rollenmanagement. 
+
+Darüber hinaus bringt allein das Basispaket schon viele dokumentarische Kernmodule mit, wie beispielsweise für die Pflege:
+- Pflegeanamnese
+- Vitalzeichen-/Beobachtungsprotokoll
+- Pfl egeplan mit der Pfl egefachsprache ENP (European Nursing care Pathways)
+- Aufgaben- und To-Do-Liste (Task Assistant) 
+- Mobilisationsplan
+- Sturzprotokoll
+- Verlaufsberichtswesen
+- Ein Set an vordefinierten Reports
+- Internes Nachrichtensystem
+
+# Zusätzlich findest du in GRIPS folgende Module
+
+- Medikation
+- Fieberkurve
+- Bundeseinheitlicher Medikationsplan
+- Diabetesprotokoll
+- Flüssigkeitsbilanzierung
+- Visitendokumentation
+- Laborwertdarstellung
+- Skalen und Assessments mit Verlaufsdarstellung
+- Aktivitäten und Gruppendokumentation
+- Pflegevisite
+- Pflegeaufwands-Darstellung
+- Überleitungsbogen
+- Medikationspläne/-listen
+- Wundmanagement
+- Physiotherapie
+- Ergotherapie
+- Logopädie
+- Psychologie
+- Ernährungsberatung
+- Kunst- und Musiktherapie
+- Physikalische Therapie bzw. Bäderabteilung
+- Sozialdienst
+- und vieles mehr
+
+# GRIPS AnaltiX
+Analytix ist unser Auswertemodul. 
+Da wir in GRIPS Daten standardisiert erheben, lassen diese sich auswerten und unterstützen so z. B. das Management einer Klinik.
+Wie wäre es, wenn du mit einem Klick wissen würdest, wie hoch die Dekubitusrate auf einer Station oder 
+in der gesamten Einrichtung ist und wie sich diese im Zeitverlauf X entwickelt hat? 
+AnalytiX gibt es für Dekubitusauswertung, Sturzstatistik, Pflegezeiten, BAss-Dashbord etc. 
+
+# Kein GRIPS ohne ENP, aber was ist ENP?
+ENP steht für Europeen Nursing care Pathways. Das Pflegeklassifikationssystem wird seit 1989 ständig weiterentwickelt. 
+Die standardisierte  & sektorenübergreifende Pflegefachsprache zeichnet sich gegenüber anderen Klassifikationen durch 
+konkrete und spezifische Beschreibungen für die jeweilige Pflegesituation aus: die ENP-Praxisleitlinie. 
+ENP ist sowohl in Buchform, als auch als Datenbank zur Integration in RECOM-GRIPS sowie als externe Datenbank in Fremdanbieter-Systeme verfügbar.
+Ausführliche Informationen hierzu erhällts du vom Team F&E.
